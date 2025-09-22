@@ -1,34 +1,30 @@
-# RAG-Document-QA-with-Streamlit
-This project implements a Retrieval-Augmented Generation (RAG) system for answering questions from a collection of documents. It uses LangChain for document processing, vector databases for semantic search, and provides a simple Streamlit web app for interactive Q&amp;A.
+# RAG Document QA with Streamlit
 
-Features
+A **Retrieval-Augmented Generation (RAG) system** for querying and interacting with your document collection.  
+This project uses **LangChain** for document processing, **ChromaDB** for semantic search, and provides a **Streamlit web interface** for interactive Q&A.
 
-📂 Upload and query your own documents (PDF, text, etc.).
+---
 
-🔎 Semantic search with embeddings for accurate retrieval.
+## 🚀 Features
 
-💬 Chat-style interface to ask questions about your documents.
+- 📂 Load and query documents (PDF, text, etc.) from a folder.  
+- 🔎 Semantic search with vector embeddings for accurate retrieval.  
+- 💬 Chat-style interface for asking questions about your documents.  
+- ⚡ Supports both **OpenAI API** and **local LLMs** (GPT4All or HuggingFace models) — works offline with local models.  
+- 🖥 Easy to run locally or deploy on **Streamlit Cloud**.
 
-⚡ Works with OpenAI API or local LLMs (GPT4All, HuggingFace models) — no quota required if running locally.
+---
 
-🚀 Easy to deploy on Streamlit Cloud or run locally.
+## 🧰 Tech Stack
 
-Tech Stack
+- Python 3.10+  
+- [LangChain](https://www.langchain.com/) (`langchain`, `langchain-community`, `langchain-openai`)  
+- [ChromaDB](https://www.trychroma.com/) (vector store)  
+- [Streamlit](https://streamlit.io/) (UI)  
+- [OpenAI API](https://platform.openai.com/) or **local LLMs** (GPT4All / HuggingFace models)  
 
-Python
+---
 
-LangChain (langchain, langchain-community, langchain-openai)
 
-ChromaDB (vector store)
-
-Streamlit (UI)
-
-OpenAI / GPT4All / HuggingFace (LLM options)
-
-⚡ Pro tip: In your README.md, you can also add:
-
-Setup instructions (venv + requirements.txt)
-
-Usage examples (terminal & Streamlit)
-
-Screenshot/GIF of the app in action
+git clone https://github.com/your-username/rag-document-qa.git
+cd rag-document-qa
