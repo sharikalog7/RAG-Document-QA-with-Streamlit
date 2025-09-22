@@ -25,6 +25,14 @@ This project uses **LangChain** for document processing, **ChromaDB** for semant
 
 ---
 
+## Notes
+Ensure your network allows connections to OpenAI API if using cloud LLM.
 
-git clone https://github.com/your-username/rag-document-qa.git
-cd rag-document-qa
+Cache embeddings to speed up repeated runs.
+
+Streamlit Cloud is a convenient deployment option if local network blocks API calls.
+
+## License
+MIT License
+
+
